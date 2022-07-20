@@ -25,7 +25,7 @@ body{
 .text h1{
     font-size: 40px;
 }
-button{
+.color {
     
         background-color: rgba(221, 0, 0, 1); /* red */
         border: none;
@@ -38,7 +38,7 @@ button{
         cursor: pointer;
         border-radius: 15px;     
 }
-button:hover{
+.color:hover{
     background-color:#002ead;
     transition: 1.7s;
 }
@@ -46,4 +46,68 @@ button:hover{
     padding: 0% 5%;
     margin: 57px 0px 0px 0px;
 }
+
 /*...match section..*/
+
+.blog{
+    display: flex;
+}
+.menu-bar{
+    height: 252px;
+    width: 224px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 5%;
+    text-align: center;
+}
+.menu a {
+    background-color: rgb(246, 246, 246); /* red */
+    border: none;
+    color: rgb(14, 13, 13);
+    padding: 17px 17px 17px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 15px; 
+    margin: 30px 15px 0px 30px; 
+    
+}
+.menu .group{
+     margin-top: 7%;
+     padding: 17px 40px 17px 59px;
+     
+}
+.menu .color{
+    margin-top: 15px;
+    padding: 17px 64px 17px 63px;
+}
+
+
+.matchs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 100px;
+    margin-left: 8px;
+}
+.match {
+    
+    width: 251px;
+    height: 281px;
+    margin-left: 8px;
+}
+.match img{
+    width: 250px;
+}
+.match a{
+    background-color: rgb(246, 246, 246); 
+    border: black solid;
+    color: rgb(14, 13, 13);
+    padding: 5px 17px 5px 17px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 400;
+    border-radius: 5px; 
+}
