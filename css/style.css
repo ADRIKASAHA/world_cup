@@ -1,0 +1,49 @@
+/*--font--*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap');
+
+body{
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+/*banner section*/
+.banner{
+    display: flex;
+    background-color:black;
+    margin: 5% 0%;
+    border-radius: 10px;
+    height: 400px;
+  
+}
+.text{
+    color: white;
+    padding: 4% 9%;
+
+}
+.text h1{
+    font-size: 40px;
+}
+button{
+    
+        background-color: rgba(221, 0, 0, 1); /* red */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 15px;     
+}
+button:hover{
+    background-color:#002ead;
+    transition: 1.7s;
+}
+.banner_img{
+    padding: 0% 5%;
+    margin: 57px 0px 0px 0px;
+}
+/*...match section..*/
