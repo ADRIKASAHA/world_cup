@@ -158,3 +158,31 @@ body{
 	margin-right: 10px;
 	padding-right: 10px;
 }
+/* mobile query */
+@media only screen and (max-width:688px) {
+    .banner, .footer{
+        width: 100%;
+    }
+      .menu ,.matchs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-menu, .footter-lowp,.text ,.banner_img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+     .footer-menu, .blog{
+        flex-direction: column;
+    }
+}
+
+/*tablet view*/
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .banner{
+        width: 100%;
+    }
+    .footer-menu, .footer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .menu, .menu-bar{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
