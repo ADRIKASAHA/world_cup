@@ -3,7 +3,7 @@
 
 body{
   margin: 0 auto;
-  max-width: 1000px;
+ 
   padding: 0;
   font-family: 'Fira Sans', sans-serif;
 
@@ -16,6 +16,8 @@ body{
     margin: 5% 0%;
     border-radius: 10px;
     height: 400px;
+    width: fit-content; 
+   
   
 }
 .text{
@@ -92,6 +94,12 @@ body{
     grid-template-columns: repeat(3,1fr);
     max-width: 100px;
     margin-left: 8px;
+    grid-template-rows: repeat(2,1fr);
+    max-width: 1000px;
+}
+.flag{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 .match {
     
@@ -104,10 +112,10 @@ body{
 }
 .match h3{
     font-size: 18px; 
-    padding: 0px 8px 0px 8px;
+    
 }
 .match img{
-    width: 250px;
+    width: 50px;
 }
 .match a{
     background-color: rgb(246, 246, 246); 
@@ -120,10 +128,6 @@ body{
     font-weight: 400;
     border-radius: 5px; 
     margin-left: 9px;
-}
-.icon i{
-    padding: 0px 5px 10px 14px;
-    margin-bottom: 5%;
 }
 /* footer section */
 .footer{
@@ -157,56 +161,4 @@ body{
 	display: inline-block;
 	margin-right: 10px;
 	padding-right: 10px;
-}
-/* mobile query */
-@media only screen and (max-width:688px) {
-    .banner, .footer{
-        width: 100%;
-    }
-    .banner{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        width: fit-content;
-
-    }
-    
-      .menu ,.matchs{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .footer-menu, .footter-lowp,.text ,.banner_img {
-        grid-template-columns: repeat(1, 1fr);
-    }
-     .footer-menu, .blog{
-        flex-direction: column;
-    }
-}
-
-/*tablet view*/
-@media only screen and (min-width: 688px) and (max-width:992px) {
-    .banner{
-        width: 100%;
-    }
-  
-    .matchs{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-
-       justify-content: center;
-    } 
-    .menu-bar{
-       display: flex;
-        margin: 10px;
-        background-color: white;
-        width: auto;
-        
-    }
-    .blog{
-        display: grid;
-        grid-template-rows: repeat(3, 1fr);
-    }
-   
-    .footer-menu, .footer{
-        grid-template-columns: repeat(2, 1fr);
-    }
-  
 }
