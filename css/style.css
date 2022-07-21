@@ -51,6 +51,7 @@ body{
 
 .blog{
     display: flex;
+    width: 100%;
 }
 .menu-bar{
     height: 252px;
@@ -96,13 +97,20 @@ body{
     width: 251px;
     height: 281px;
     margin-left: 8px;
+    border-radius: 3%;
+    box-shadow: 0px 5px 5px 0px  rgb(126, 118, 118); 
+    margin-bottom: 4%;
+}
+.match h3{
+    font-size: 18px; 
+    padding: 0px 8px 0px 8px;
 }
 .match img{
     width: 250px;
 }
 .match a{
     background-color: rgb(246, 246, 246); 
-    border: black solid;
+    border: rgb(230, 222, 222) solid ;
     color: rgb(14, 13, 13);
     padding: 5px 17px 5px 17px;
     text-align: left;
@@ -110,4 +118,9 @@ body{
     display: inline-block;
     font-weight: 400;
     border-radius: 5px; 
+    margin-left: 9px;
+}
+.icon i{
+    padding: 0px 5px 10px 14px;
+    margin-bottom: 5%;
 }
